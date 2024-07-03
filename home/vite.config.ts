@@ -13,6 +13,13 @@ export default defineConfig({
           cart: "http://localhost:3002/assets/remoteEntry.js",
           addtocart: "http://localhost:3003/assets/remoteEntry.js",
         },
+        exposes: {
+          "./Header": "./src/Header.tsx",
+          "./Footer": "./src/Footer.tsx",
+          "./products": "./src/products.ts",
+          "./HomeContent": "./src/HomeContent.tsx",
+          "./MainLayout": "./src/MainLayout.tsx",
+        },
         shared: ['react','react-dom'] 
       })
   ],

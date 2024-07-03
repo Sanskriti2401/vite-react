@@ -8,10 +8,11 @@ import MainLayout from "./MainLayout";
 // ReactDOM.render(<MainLayout />, document.getElementById("app"));
 
 function App(){
-
   return(
-
+    <>
     <MainLayout />
+
+    </>
   )
 
 }
