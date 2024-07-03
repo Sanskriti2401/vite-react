@@ -1,0 +1,12 @@
+.main-layout {
+    font-size: 1.875rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 96rem; 
+  }
+  
+  .main-content {
+    margin-top: 2.5rem; 
+    margin-bottom: 2.5rem;
+  }
+  
